@@ -15,15 +15,12 @@
   </span>
 </span>
 
-<h2>Showing the guestbook: {{ currentGuestbookName }}</h2>
 <div>
   <p>
   <form ng-submit="submit_form()">
-    Message:<br>
+    Your message:<br>
     <textarea name="content" rows="5" cols="100" ng-model="content"></textarea><br>
-    Guestbook Name:
-    <input type="text" name="guestbookName" ng-model="guestbookName"><br>
-    <input type="submit" value="Submit" name="submit">
+    <input type="submit" value="Submit" name="submit" class="button--primary">
   </form>
   </p>
 </div>

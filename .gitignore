@@ -7,3 +7,5 @@
 /.chrome-e2e/
 /.chrome-test/
 
+.idea
+*.iml
